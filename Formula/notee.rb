@@ -14,7 +14,7 @@ class Notee < Formula
   end
 
   test do
-    output = shell_output("#{bin}/n echo 'hello'", 1)
+    output = shell_output("#{bin}/n echo 'hello'", 0)
     assert_match "hello", output
   end
 end
