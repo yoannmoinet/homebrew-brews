@@ -1,3 +1,5 @@
+require "language/node"
+
 class Notee < Formula
   desc "Get a notification after a long command."
   homepage "https://github.com/yoannmoinet/notee"
